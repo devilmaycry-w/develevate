@@ -6,12 +6,12 @@
   "publisher": "DevElevate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/develevate/vscode-extension"
+    "url": "https://github.com/devilmaycry-w/develevate"
   },
   "bugs": {
-    "url": "https://github.com/develevate/vscode-extension/issues"
+    "url": "https://github.com/devilmaycry-w/develevate/issues"
   },
-  "homepage": "https://github.com/develevate/vscode-extension#readme",
+  "homepage": "https://github.com/devilmaycry-w/develevate#readme",
   "license": "MIT",
   "icon": "icon.png",
   "galleryBanner": {
