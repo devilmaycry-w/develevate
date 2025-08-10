@@ -1,0 +1,156 @@
+{
+  "javascript": [
+    {
+      "id": "js-reverse-string",
+      "title": "Reverse a String",
+      "description": "Write a function that reverses a string",
+      "prompt": "Create a function called 'reverseString' that takes a string as input and returns it reversed.",
+      "starter": "function reverseString(str) {\n  // Your code here\n}\n\n// Test it\nconsole.log(reverseString('hello'));",
+      "expectedOutput": "olleh",
+      "testInput": "hello",
+      "hints": [
+        "You can use Array methods by converting the string to an array first",
+        "Try using the split(), reverse(), and join() methods",
+        "Alternative: use a for loop to iterate backwards through the string"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "js-sum-array",
+      "title": "Sum Array Elements",
+      "description": "Calculate the sum of all numbers in an array",
+      "prompt": "Create a function called 'sumArray' that takes an array of numbers and returns their sum.",
+      "starter": "function sumArray(numbers) {\n  // Your code here\n}\n\n// Test it\nconsole.log(sumArray([1, 2, 3, 4, 5]));",
+      "expectedOutput": "15",
+      "testInput": "[1, 2, 3, 4, 5]",
+      "hints": [
+        "You can use a for loop to iterate through the array",
+        "Try using the reduce() method for a more elegant solution",
+        "Don't forget to initialize your sum variable to 0"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "js-find-max",
+      "title": "Find Maximum Number",
+      "description": "Find the largest number in an array",
+      "prompt": "Create a function called 'findMax' that takes an array of numbers and returns the largest one.",
+      "starter": "function findMax(numbers) {\n  // Your code here\n}\n\n// Test it\nconsole.log(findMax([3, 7, 2, 9, 1]));",
+      "expectedOutput": "9",
+      "testInput": "[3, 7, 2, 9, 1]",
+      "hints": [
+        "You can use Math.max() with the spread operator",
+        "Alternative: iterate through the array keeping track of the maximum",
+        "Consider what to return if the array is empty"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "js-palindrome",
+      "title": "Check Palindrome",
+      "description": "Check if a string is a palindrome",
+      "prompt": "Create a function called 'isPalindrome' that checks if a string reads the same forwards and backwards.",
+      "starter": "function isPalindrome(str) {\n  // Your code here\n}\n\n// Test it\nconsole.log(isPalindrome('racecar'));",
+      "expectedOutput": "true",
+      "testInput": "racecar",
+      "hints": [
+        "Convert the string to lowercase first to handle case differences",
+        "Compare the string with its reverse",
+        "You can use the reverse string technique from the first challenge"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "js-fibonacci",
+      "title": "Fibonacci Sequence",
+      "description": "Generate the nth Fibonacci number",
+      "prompt": "Create a function called 'fibonacci' that returns the nth number in the Fibonacci sequence.",
+      "starter": "function fibonacci(n) {\n  // Your code here\n}\n\n// Test it\nconsole.log(fibonacci(7));",
+      "expectedOutput": "13",
+      "testInput": "7",
+      "hints": [
+        "The Fibonacci sequence starts with 0, 1, 1, 2, 3, 5, 8, 13...",
+        "Each number is the sum of the two preceding ones",
+        "You can use iteration or recursion (iteration is more efficient)"
+      ],
+      "difficulty": "intermediate"
+    }
+  ],
+  "python": [
+    {
+      "id": "py-sum-list",
+      "title": "Sum a List",
+      "description": "Calculate the sum of all numbers in a list",
+      "prompt": "Create a function called 'sum_list' that takes a list of numbers and returns their sum.",
+      "starter": "def sum_list(numbers):\n    # Your code here\n    pass\n\n# Test it\nprint(sum_list([1, 2, 3, 4]))",
+      "expectedOutput": "10",
+      "testInput": "[1, 2, 3, 4]",
+      "hints": [
+        "You can use the built-in sum() function",
+        "Alternative: use a for loop to add each number",
+        "Python also has list comprehensions for advanced solutions"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "py-count-vowels",
+      "title": "Count Vowels",
+      "description": "Count the number of vowels in a string",
+      "prompt": "Create a function called 'count_vowels' that counts vowels (a, e, i, o, u) in a string.",
+      "starter": "def count_vowels(text):\n    # Your code here\n    pass\n\n# Test it\nprint(count_vowels('hello world'))",
+      "expectedOutput": "3",
+      "testInput": "hello world",
+      "hints": [
+        "Define a string or list of vowels to check against",
+        "Use a loop to check each character in the string",
+        "Don't forget to handle both uppercase and lowercase vowels"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "py-reverse-list",
+      "title": "Reverse a List",
+      "description": "Reverse the elements in a list",
+      "prompt": "Create a function called 'reverse_list' that takes a list and returns it reversed.",
+      "starter": "def reverse_list(items):\n    # Your code here\n    pass\n\n# Test it\nprint(reverse_list([1, 2, 3, 4, 5]))",
+      "expectedOutput": "[5, 4, 3, 2, 1]",
+      "testInput": "[1, 2, 3, 4, 5]",
+      "hints": [
+        "You can use slicing with [::-1]",
+        "Alternative: use the reversed() function",
+        "You could also use a loop to build the reversed list manually"
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "py-prime-check",
+      "title": "Check Prime Number",
+      "description": "Check if a number is prime",
+      "prompt": "Create a function called 'is_prime' that checks if a number is prime (only divisible by 1 and itself).",
+      "starter": "def is_prime(num):\n    # Your code here\n    pass\n\n# Test it\nprint(is_prime(17))",
+      "expectedOutput": "True",
+      "testInput": "17",
+      "hints": [
+        "A prime number is greater than 1 and has no divisors other than 1 and itself",
+        "You only need to check divisors up to the square root of the number",
+        "Handle edge cases like numbers less than 2"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "py-word-frequency",
+      "title": "Word Frequency Counter",
+      "description": "Count the frequency of each word in a sentence",
+      "prompt": "Create a function called 'word_frequency' that takes a sentence and returns a dictionary with word counts.",
+      "starter": "def word_frequency(sentence):\n    # Your code here\n    pass\n\n# Test it\nprint(word_frequency('the quick brown fox jumps over the lazy dog'))",
+      "expectedOutput": "{'the': 2, 'quick': 1, 'brown': 1, 'fox': 1, 'jumps': 1, 'over': 1, 'lazy': 1, 'dog': 1}",
+      "testInput": "the quick brown fox jumps over the lazy dog",
+      "hints": [
+        "Split the sentence into words first",
+        "Use a dictionary to store word counts",
+        "Consider converting to lowercase for consistent counting"
+      ],
+      "difficulty": "intermediate"
+    }
+  ]
+}

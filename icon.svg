@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="violetGrad" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1E1B4B;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="lightning" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with violet storm effect -->
+  <circle cx="64" cy="64" r="64" fill="url(#violetGrad)"/>
+  
+  <!-- Lightning bolt -->
+  <path d="M50 20 L78 20 L60 55 L75 55 L45 108 L60 70 L45 70 Z" 
+        fill="url(#lightning)" 
+        stroke="#FFFFFF" 
+        stroke-width="2"/>
+  
+  <!-- Code brackets -->
+  <text x="20" y="45" fill="#E5E7EB" font-family="monospace" font-size="24" font-weight="bold">&lt;</text>
+  <text x="95" y="45" fill="#E5E7EB" font-family="monospace" font-size="24" font-weight="bold">/&gt;</text>
+  
+  <!-- Bottom accent -->
+  <text x="64" y="110" fill="#A78BFA" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">DEV</text>
+</svg>

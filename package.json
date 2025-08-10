@@ -1,0 +1,91 @@
+{
+  "name": "develevate",
+  "displayName": "DevElevate - Interactive Coding Challenges",
+  "description": "🚀 Master JavaScript and Python with interactive coding challenges, progressive hints, and real-time feedback in VS Code",
+  "version": "1.0.0",
+  "publisher": "DevElevate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/develevate/vscode-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/develevate/vscode-extension/issues"
+  },
+  "homepage": "https://github.com/develevate/vscode-extension#readme",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#8B5CF6",
+    "theme": "dark"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "challenges",
+    "javascript",
+    "python",
+    "coding",
+    "practice",
+    "beginner",
+    "interactive",
+    "tutorial",
+    "programming",
+    "developer",
+    "skills",
+    "training"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Education"
+  ],
+  "activationEvents": [
+    "onCommand:develevate.openChallenges",
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "develevate.openChallenges",
+        "title": "DevElevate: Open Challenges"
+      },
+      {
+        "command": "develevate.showSidebar",
+        "title": "DevElevate: Show Sidebar"
+      },
+      {
+        "command": "develevate.checkCurrentSolution",
+        "title": "DevElevate: Check Current Solution"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "develevate.challengesView",
+          "name": "DevElevate Challenges",
+          "when": "true",
+          "icon": "$(mortarboard)"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.74.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "@vscode/vsce": "^2.32.0",
+    "eslint": "^9.32.0"
+  }
+}
